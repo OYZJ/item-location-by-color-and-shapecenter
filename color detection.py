@@ -12,8 +12,8 @@ sys.setdefaultencoding('utf8')
 cap = cv2.VideoCapture(0)
 
 # set red thresh
-lower_red=np.array([78, 43, 46])
-upper_red=np.array([110, 255, 255])
+lower_red=np.array([100, 40, 40])
+upper_red=np.array([255, 1500, 150])
 
 while(1):
     # get a frame and show
